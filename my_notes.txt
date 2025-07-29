@@ -1,0 +1,9 @@
+my names is Eshwar
+my roll number is 456543
+my branch is ECE
+learning python is fun!
+I am in third year.
+I love coding.
+This is an even line: 1
+This is an even line: 3
+This is an even line: 5
