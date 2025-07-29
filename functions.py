@@ -1,4 +1,4 @@
-'''
+
 def calculate_interest(principle , rate, time): 
 return(principle * rate * time) / 100
 
@@ -37,7 +37,7 @@ print("Line 2")                    # Prints "Line 2" on the same line as "Line 1
 item = "Laptop"
 cost = 1200.50
 print(f"The {item} costs ${cost:.2f}.") # Output: The Laptop costs $1200.50.
-'''
+
 try:
     user_num_str = input("Please enter an integer: ")
     user_num = int(user_num_str) # This might raise a ValueError
