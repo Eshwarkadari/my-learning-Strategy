@@ -1,9 +1,7 @@
-w=int(input("Enter a watermelan weight : "))
-if(w%2!=0 or w==2):
-    print("no")
+# Watermelon Equal Weight
+# Can a watermelon of given weight be split into two equal even parts?
+w = int(input("Enter watermelon weight: "))
+if w > 2 and w % 2 == 0:
+    print("YES - Can be split into two equal even parts!")
 else:
-    x=w//2
-    if(x%2==0):
-        print(x,x)
-    else:
-        print(x-1,x+1)
+    print("NO - Cannot be split equally.")
